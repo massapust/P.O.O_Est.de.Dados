@@ -10,7 +10,7 @@ public class App7 {
        int b = entradaScanner.nextInt();
        System.out.println("Digite o 3º numero da operação:");
        int c = entradaScanner.nextInt();
-       System.out.println("Digite o 3º numero da operação:");
+       System.out.println("Digite o 4º numero da operação:");
        int d = entradaScanner.nextInt();
 
        int dif;
