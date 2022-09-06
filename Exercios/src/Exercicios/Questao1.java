@@ -5,7 +5,7 @@ public class Questao1 {
     public static void main(String[] args) {
      Scanner enterScanner = new Scanner(System.in);
      int a;
-     int b;ssd
+     int b;
      System.out.println("Digite o primeiro numero da soma:");
      a = enterScanner .nextInt();
      System.out.println("Digite o primeiro numero da soma:");
