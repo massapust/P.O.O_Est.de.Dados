@@ -1,7 +1,7 @@
 package Exercicios;
 import java.util.Scanner;
 
-public class App6 {
+public class Questao6 {
     public static void main(String[] args) {
        Scanner entradaScanner = new Scanner(System.in);
        System.out.println("Digite o 1º numero da soma:");

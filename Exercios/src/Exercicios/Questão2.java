@@ -1,7 +1,7 @@
 package Exercicios;
 import java.util.Scanner;
 
-public class App2 {
+public class Questão2 {
     public static void main(String[] args) {
         Scanner enterScanner = new Scanner(System.in);
         double r, n, area;

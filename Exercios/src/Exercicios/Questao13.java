@@ -1,7 +1,7 @@
 package Exercicios;
 import java.util.Scanner;
 
-public class App13 {
+public class Questao13 {
     public static void main(String[] args) {
        Scanner entradaScanner = new Scanner(System.in);
 

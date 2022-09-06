@@ -2,7 +2,7 @@ package Exercicios;
 import java.util.Scanner;
 import java.util.Locale;
 
-public class App14 {
+public class Questao14 {
     public static void main(String[] args) {
        Locale.setDefault(Locale.US);
        Scanner entradaScanner = new Scanner(System.in);
