@@ -23,5 +23,4 @@ public class exerc2 {
         System.out.println("O maior integrante tem altura: " + maior);
         System.out.println("O menor integrante tem altura: " + menor);
     }
-
 }
