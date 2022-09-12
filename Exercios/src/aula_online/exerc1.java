@@ -11,8 +11,7 @@ public class exerc1 {
                 if (i%2==1 && i%3==0){ 
                     soma = soma + i;
                 }
-                
-        
+                       
             }
         
             System.out.printf("Soma dos numeros impares multipos de 3 de 1 a 500: %d\n\n", soma);

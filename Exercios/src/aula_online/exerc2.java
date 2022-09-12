@@ -1,5 +1,4 @@
 package aula_online;
-
 import java.util.Scanner;
 
 public class exerc2 {
