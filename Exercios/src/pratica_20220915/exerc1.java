@@ -1,4 +1,4 @@
-package pratica_20220915;
+
 import java.util.Scanner;
 
 /**
@@ -31,16 +31,17 @@ public class exerc1 {
 
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
-        Double a = sc.nextDouble();
-        Double b = sc.nextDouble();
-        Double c = sc.nextDouble();
-        if (c1T(b, c, a) && c2T(a, b, c) &&
-                c1T(a, c, b) && c2T(b, a, c) &&
-                c1T(a, b, c) && c2T(c, a, b)) {
-            System.out.println(" perimetro =" + (a + b + c));
-        } else {
-            System.out.println("a area e = " + (((a + b) * c) / 2));
+        try (Scanner sc = new Scanner(System.in)) {
+            Double a = sc.nextDouble();
+            Double b = sc.nextDouble();
+            Double c = sc.nextDouble();
+            if (c1T(b, c, a) && c2T(a, b, c) &&
+                    c1T(a, c, b) && c2T(b, a, c) &&
+                    c1T(a, b, c) && c2T(c, a, b)) {
+                System.out.println(" perimetro =" + (a + b + c));
+            } else {
+                System.out.println("a area e = " + (((a + b) * c) / 2));
+            }
         }
     }
 }

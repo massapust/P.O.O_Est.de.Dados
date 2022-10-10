@@ -1,4 +1,5 @@
 package entrega_20220912;
+
 import java.util.Scanner;
 /*
  * 10) Escreva um algoritmo que leia um valor inicial A e
@@ -6,27 +7,24 @@ import java.util.Scanner;
  * A! e o seu resultado. Ex: 5! = 5 X 4 X 3 X 2 X 1 = 120
  */
 
-public class exerc10 { 
- 
+public class exerc10 {
+
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
             int numero;
-   
-   System.out.println("Digite um número para fatorar: ");
+
+            System.out.println("Digite um número para fatorar: ");
             numero = sc.nextInt();
             long fatorial = 1;
             int i = 1;
 
             while (i <= numero) {
-            fatorial = fatorial * i;
-            i++;           
+                fatorial = fatorial * i;
+                i++;
             }
-            
+
             System.out.println(" O Fatorial de " + numero + " é " + fatorial);
         }
+    }
+
 }
-
-
-}
-
-    
