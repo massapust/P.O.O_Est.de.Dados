@@ -13,10 +13,8 @@ public class exerc4 {
     public static void main(String[] args) {
 		int i , contA = 0 , contB = 0 , contC = 0 , contD = 0, ContMaior =0;
 		String exit;
-		Scanner sc = new Scanner(System.in);
-		
-		
-		    do {
+		try (Scanner sc = new Scanner(System.in)) {
+			do {
            System.out.println("Digite um numero:(X) ");
 		     i = sc.nextInt();
 		     
@@ -40,9 +38,10 @@ public class exerc4 {
 	        System.out.println("Você encerrar o programa? se sim (S) se nao (N)");
             exit = sc.next();			
 			} while (!exit.toUpperCase().equals("S"));
-		    
-		    
-System.out.println(" Quantidade da chave [0 - 25]=  " + contA);
+		}
+		
+		
+		    System.out.println(" Quantidade da chave [0 - 25]=  " + contA);
 System.out.println(" Quantidade da chave [26 - 50]=  " + contB);
 System.out.println(" Quantidade da chave [51 - 75]=  " + contC);
 System.out.println(" Quantidade da chave [76 - 100]=  " + contD);

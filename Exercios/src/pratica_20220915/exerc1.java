@@ -1,3 +1,4 @@
+package pratica_20220915;
 import java.util.Scanner;
 
 /**

@@ -12,22 +12,23 @@ import java.util.Scanner;
 public class exerc2 {
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        Double maior = Double.MIN_VALUE;
-        Double menor = Double.MAX_VALUE;
+        try (Scanner sc = new Scanner(System.in)) {
+            Double maior = Double.MIN_VALUE;
+            Double menor = Double.MAX_VALUE;
 
-        for (int i = 0; i < 15; i++) {
-            System.out.println("Digite sua altura: ");
-            Double altura = sc.nextDouble();
-            if (maior < altura) {
-                maior = altura;
+            for (int i = 0; i < 15; i++) {
+                System.out.println("Digite sua altura: ");
+                Double altura = sc.nextDouble();
+                if (maior < altura) {
+                    maior = altura;
+                }
+                if (menor > altura) {
+                    menor = altura;
+                }
             }
-            if (menor > altura) {
-                menor = altura;
-            }
+
+            System.out.println("O maior integrante do grupo tem altura: " + maior);
+            System.out.println("O menor integrante do grupo tem altura: " + menor);
         }
-
-        System.out.println("O maior integrante do grupo tem altura: " + maior);
-        System.out.println("O menor integrante do grupo tem altura: " + menor);
     }
 }

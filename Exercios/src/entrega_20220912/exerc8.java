@@ -9,16 +9,17 @@ import java.util.Scanner;
 
 public class exerc8 {
     public static void main(String[] args) {
-    Scanner sc= new Scanner(System.in);
-	System.out.println("Digite o A : ");
-    double a=sc.nextDouble();
-	System.out.println("Digite o Razão : ");
-    double r=sc.nextDouble();
-    double result= a;
+    try (Scanner sc = new Scanner(System.in)) {
+        System.out.println("Digite o A : ");
+        double a=sc.nextDouble();
+        System.out.println("Digite o Razão : ");
+        double r=sc.nextDouble();
+        double result= a;
 
-        for (int i = 0; i <10 ; i++) {
-         System.out.println(result);
-         result += r;
-        }
+            for (int i = 0; i <10 ; i++) {
+             System.out.println(result);
+             result += r;
+            }
+    }
     }
 }
