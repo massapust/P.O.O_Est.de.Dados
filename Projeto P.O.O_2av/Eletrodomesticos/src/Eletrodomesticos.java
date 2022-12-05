@@ -37,5 +37,5 @@ public class Eletrodomesticos {
 
     public void setCapacidade(String capacidade) {
         this.capacidade = capacidade;
-}
+    }
 }
